@@ -1,0 +1,165 @@
+/* #14A69A  rgb(80,166,154) hsl(172,35,48) //メインカラー 25% */
+/* #796A54  rgb(121,106,84) //アクセントカラー 5% */
+/* //ベースカラー 70% */
+
+body {
+  background-color: hsl(70, 19%, 87%);
+  color: #666;
+  font-family: sans-serif;
+  margin: 0px;
+  text-align: center;
+}
+
+fixed-zone {
+  position: sticky;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 90px;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(80,166,154);
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.title {
+  margin-right: auto;
+}
+
+.menu-item {
+  color: #fff;
+  font-size: 20px;
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  margin: 0 20px;
+}
+
+h1 {
+  background-color: rgb(80,166,154);
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  width: auto;
+  padding: 10px;
+}
+
+#review {
+  background-color: #c6e5d9;
+  color: #666;
+  text-align: left;
+  font-size: 45px;
+  width: 25%;
+  height: 750px;
+  margin: 0;
+  display: flex;
+  padding: 30px
+}
+
+ol {
+}
+
+.input-zone {
+  text-align: center;
+}
+
+.input-area {
+  background-color: #c6e5d9;
+  border-radius: 8px;
+  display: inline-block;
+  height: 250px;
+  padding: 8px;
+  margin: 8px;
+  width: 200px;
+}
+
+input {
+  border-radius: 8px;
+  border: none;
+  padding: 6px 21px;
+  margin: 6px;
+}
+
+button {
+  background-color: rgb(121,106,84);
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  margin : 6px;
+  padding: 6px 16px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #79a8a9;
+  color: #fff;
+  cursor: pointer;
+}
+
+.image-picture {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.image-picture1 {
+  margin: 20px;
+  text-align: center;
+}
+
+.image-picture img {
+  display: inline-block;
+  border-radius: 50px;
+  margin: 0 20px;
+}
+
+.image-picture1 img {
+  display: inline-block;
+  border-radius: 50px;
+}
+
+h6 {
+  overflow: scroll;
+  margin: 0;
+  padding: 0;
+  width: 5cm;
+  background-color: bisque;
+}
+
+.labelname {
+  border: 1px solid #000;
+  margin: 0;
+}
+
+.allprofile {
+  /* display: flex; */
+  justify-content: center;
+}
+
+table {
+  font-size: 22px;
+  margin: 10px auto;
+  font-weight: bold;
+  border-collapse: separate;
+  /* margin: auto; */
+}
+
+td.td-first {
+  width: 180px;
+  height: 60px;
+}
+
+span {
+  font-size: 35px;
+  background: linear-gradient(transparent 50%, yellow 50%);
+  display: inline-block;
+}
