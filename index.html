@@ -1,0 +1,46 @@
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <script type="text/javascript" src="modules/lodash.min.js"></script>
+    <!-- <script type="text/javascript" src="script.js"></script> -->
+    <title>Label Maker</title>
+  </head>
+  <body>
+    <div class = "fixed-zone">
+      <header>
+        <h1 class = "title">Presentation</h1>
+        <nav class = "nav">
+          <ul class= "menu-group">
+            <li  class = "menu-item">
+              <a href = "index2.html">My Profile</a>
+            </li>
+            <li class = "menu-item">
+              <a href = "index.html">Label Maker</a>
+            </li>
+            <li class = "menu-item">
+              <a href = "index3.html">Review</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class = input-zone>
+        <div class = "input-area">
+          <input id = "add-text" placeholder = "ラベルにする内容は？"/>
+          <input id = "add-num" type = "number" placeholder = "枚数を入力してね！"/>
+          <input id = "add-width" type = "number" placeholder = "幅は何cm？"/>
+          <input id = "add-height" type = "number" placeholder = "高さは何cm？"/>
+          <input id = "add-direction" placeholder = "ラベル向きは横？縦？"/>
+          <button id = "add-button">作成！</button>
+          <button id = "clear-button">クリア</button>
+        </div>
+        <div class = "image-picture">
+          <img src = "photos/img_9035.jpg" width = "300px" alt ="">
+          <img src = "photos/img_9036.jpg" width = "300px" alt ="">
+        </div>
+      </div>
+    </div>
+    <script src = "script.js"></script>
+  </body>
+</html>
