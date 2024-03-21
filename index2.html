@@ -1,46 +1,54 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "style.css">
-    <script type="text/javascript" src="modules/lodash.min.js"></script>
-    <title>Label Maker</title>
-  </head>
-  <body>
-    <div class = "fixed-zone">
-      <header>
-        <h1 class = "title">Presentation</h1>
-        <nav class = "nav">
-          <ul class= "menu-group">
-            <li  class = "menu-item">
-              <a href = "index2.html">My Profile</a>
-            </li>
-            <li class = "menu-item">
-              <a href = "index.html">Label Maker</a>
-            </li>
-            <li class = "menu-item">
-              <a href = "index3.html">Review</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <div class = input-zone>
-        <div class = "input-area">
-          <input id = "add-text" placeholder = "ラベルにする内容は？"/>
-          <input id = "add-num" type = "number" placeholder = "枚数を入力してね！"/>
-          <input id = "add-width" type = "number" placeholder = "幅は何cm？"/>
-          <input id = "add-height" type = "number" placeholder = "高さは何cm？"/>
-          <input id = "add-direction" placeholder = "ラベル向きは横？縦？"/>
-          <button id = "add-button">作成！</button>
-          <button id = "clear-button">クリア</button>
-        </div>
-        <div class = "image-picture">
-          <img src = "IMG_9035.jpg" width = "300px" alt ="">
-          <img src = "IMG_9036.jpg" width = "300px" alt ="">
-        </div>
-      </div>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "stylesheet" href = "style.css">
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="modules/lodash.min.js"></script>
+	<title>Profile</title>
+</head>
+<body>
+	<header>
+		<h1 class = "title">Presentation</h1>
+		<nav class = "nav">
+			<ul class= "menu-group">
+				<li  class = "menu-item">
+					<a href = "index2.html">My Profile</a>
+				</li>
+				<li class = "menu-item">
+					<a href = "index.html">Label Maker</a>
+				</li>
+				<li class = "menu-item">
+					<a href = "index3.html">Review</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div class = "allprofile">
+    <div class = "image-picture1">
+      <img src = "IMG_8619.jpg" width = "320px">
     </div>
-    <script src = "script.js"></script>
-  </body>
+    <div class = "profile">
+      <table>
+        <tr>
+          <td class = "td-first">NAME</td>
+          <td class = "td-word">水城 茂雄<br>Shigeo Mizuki</td>
+        </tr>
+        <tr>
+          <td class = "td-first">AGE</td>
+          <td class = "td-word">40歳</td>
+        </tr>
+        <tr>
+          <td class = "td-first">AFFILIATON</td>
+          <td class = "td-word">トヨタ車体 デジタル変革推進部</td>
+        </tr>
+        <tr>
+          <td  class = "td-first">EXPERIENCE</td>
+          <td class = "td-word">プログラミング経験は簡単な仕組みのVBAのみという<br>ほぼ<span>初心者</span><br>そんな私が<span>DIG基礎</span>を受講して、たどり着いたのが…</td>
+        </tr>
+      </table>
+    </div>
+	</div>
+</body>
 </html>
